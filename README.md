@@ -8,7 +8,7 @@ This project implements a real-time face detection system using Mediapipe and Op
 - Easy-to-use command-line interface.
 
 ## Folder Structure
-
+```text
 face-detection-project/
 │
 ├─ face_detection.py    # Core face detection logic
@@ -17,7 +17,7 @@ face-detection-project/
 ├─ processed_video.mp4  #output video example
 ├─ README.md         # This file
 
-
+```
 ## Usage
 
 This project can be used in two ways: via command line (script) or via Streamlit (web interface).
@@ -41,5 +41,5 @@ with mp_det.FaceDetection(min_detection_confidence=0.5, model_selection=0) as fd
 
 # Save output
 cv2.imwrite("output/output_image.png", result)
-
+```
 ###2. Run streamlit file (run.py) locally
