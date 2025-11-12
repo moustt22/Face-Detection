@@ -42,4 +42,4 @@ with mp_det.FaceDetection(min_detection_confidence=0.5, model_selection=0) as fd
 # Save output
 cv2.imwrite("output/output_image.png", result)
 ```
-###2. Run streamlit file (run.py) locally
+### 2. Run streamlit file (run.py) locally
