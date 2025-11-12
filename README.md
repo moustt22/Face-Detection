@@ -8,7 +8,7 @@ This project implements a real-time face detection system using Mediapipe and Op
 - Easy-to-use command-line interface.
 
 ## Folder Structure
-```text
+
 face-detection-project/
 │
 ├─ face_detection.py    # Core face detection logic
